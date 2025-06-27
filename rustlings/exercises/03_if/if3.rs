@@ -7,8 +7,7 @@ fn animal_habitat(animal: &str) -> &str {
     } else if animal == "snake" {
         3
     } else {
-        0
-        // return "Unknown";
+        return "Unknown"; // -> ! -> i32
     };
 
     // Don't change the expression below!

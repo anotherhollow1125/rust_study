@@ -11,12 +11,9 @@
 // TODO: Write a function that calculates the price of an order of apples given
 // the quantity bought.
 
-fn calculate_price_of_apples(quantity: u32) -> u32 {
-    if quantity <= 40 {
-        quantity * 2
-    } else {
-        quantity
-    }
+fn calculate_price_of_apples(count: u32) -> u32 {
+    let price: u32 = if count > 40 { 1 } else { 2 };
+    count * price
 }
 
 fn main() {

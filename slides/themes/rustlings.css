@@ -43,7 +43,11 @@
     height: 100%;
 }
 
-.mini-font-marker + * {
+.mini-font-marker-8 + * {
+    font-size: 0.8em;
+}
+
+.mini-font-marker-7 + * {
     font-size: 0.7em;
 }
 
